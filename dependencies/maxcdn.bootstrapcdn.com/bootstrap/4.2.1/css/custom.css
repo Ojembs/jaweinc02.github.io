@@ -17,7 +17,7 @@
     color: #f1f1f1
 }
 .homepageimg .content{
-    position: fixed;
+    position: absolute;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.685);
     width: 100%;
