@@ -106,7 +106,7 @@
     vertical-align: 0px;
 }
 button.icon{
-    padding: 4px;
+    padding: 2px;
     display: none;
     outline: none;
     border: none;
@@ -153,6 +153,8 @@ button.icon{
 }
 footer{
     padding: 10px;
+    position: absolute;
+    bottom: 0;
     background: #229db3;
     color: #f1f1f1;
     
@@ -275,6 +277,9 @@ footer{
     }
     .infocards, .btn-cards{
         font-size: 10px;
+    }
+    .navbar-brand{
+        font-size: 14px;
     }
 }
 @media screen and (max-width: 768px){
