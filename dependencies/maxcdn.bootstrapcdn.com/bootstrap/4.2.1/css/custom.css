@@ -1,0 +1,326 @@
+.homepageimg{
+    position: relative;
+}
+.imghp{
+    filter: blur(5px);
+}
+.navbar-brand{
+    padding: 8px;
+    color: #f1f1f1;
+}
+
+.content ul li{
+    margin: 0 5px;
+}
+.content ul li a{
+    padding: 15px;
+    color: #f1f1f1
+}
+.homepageimg .content{
+    position: fixed;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.685);
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+.dropdown-menu{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    
+}
+.dropdown-menu .dropdown-item{
+    color: #fafafa;
+    text-align: center;
+    transition: 0.3s;
+}
+.dropdown-item:hover{
+    background: rgba(255, 255, 255, 0.5);
+}
+.imgReachus{
+    position: absolute;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px 15px;
+    top: 210px;
+    width: 40%;
+    color: #f1f1f1;
+    border-radius: 20px;
+}
+.imgReachus .btnreach{
+    padding: 5px 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 40%;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btnreach:hover{
+    background: rgba(255, 255, 255, 0.5);
+    color: rgb(54, 54, 54);
+}
+.infocards{
+    position:absolute;
+    top: 580px;
+    width: 100%;
+}
+.infocards div{
+    margin: 0 10px;
+    background: rgba(0, 0, 0, 0.596);
+    text-align: center;
+    padding: 15px;
+    color: #f1f1f1;
+    box-shadow: 6px 8px 15px 6px rgba(0, 0, 0, 0.288);
+    border-radius: 10px;
+    width: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.infocards div p{
+    text-align: left;
+    font-size: 15px;
+}
+.infocards div:hover{
+    box-shadow: 6px 8px 15px 6px rgba(0, 0, 0, 0.534);
+}
+
+.homesection2{
+    margin-top: 13.5%;
+    background-color: #eeeeee;
+    padding: 15px;
+}
+.sec2wp{
+    padding: 20px;
+}
+.sec2wp .inp{
+    width: 50%;
+    padding: 7px;
+}
+
+.sec2wp .btn{
+    border: none;
+    border-radius: 0px;
+    padding: 8px;
+    vertical-align: 0px;
+}
+button.icon{
+    padding: 4px;
+    display: none;
+    outline: none;
+    border: none;
+    float: right;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.icon1, .icon2, .icon3{
+    width: 22px;
+    height: 2px;
+    background-color: #f1f1f1;
+    margin: 4px 0;
+} 
+
+.ascond{
+    display: none;
+}
+.sec2form input{
+    padding: 30px;
+}
+
+.content1{
+    padding: 220px 180px 180px 180px;
+    text-align: center;
+}
+
+.team{
+    border: 1px solid grey;
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.team:hover{
+    box-shadow: 4px 6px 12px 4px rgba(0, 0, 0, 0.39);
+}
+.contact1 form input, textarea{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+footer{
+    padding: 10px;
+    background: #229db3;
+    color: #f1f1f1;
+    
+}
+@media screen and (max-width: 1300px){
+        
+    .homesection2{
+        margin-top: 22%;
+        background-color: #eeeeee;
+        padding: 15px;
+}
+}
+
+@media screen and (max-width: 1280px){
+    .infocards, .btn-cards{
+        font-size: 14px;
+    }
+    .imgReachus{
+        font-size: 15px;
+    }
+    .homesection2{
+        margin-top: 14%;
+        font-size: 15px;
+    }
+    .homesection2 .sec2img img{
+        height: 380px;
+    }
+}
+@media screen and (max-width: 1150px){
+    .homesection2{
+        margin-top: 22%;
+    }
+}
+@media screen and (max-width: 1050px){
+    .homesection2{
+        margin-top: 25%;
+    }
+}
+@media screen and (max-width: 1024px){
+    .homesection2{
+        margin-top: 21%;
+    }
+    .contact1{
+        color: #f1f1f1;
+     }
+}
+@media screen and (max-width: 1000px){
+    .homesection2{
+        margin-top: 24%;
+    }
+    .imgReachus{
+        font-size: 14px;
+    }
+    .infocards, .btn-cards{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .homesection2{
+        margin-top: 27%;
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 950px){
+    .homesection2{
+        margin-top: 28%;
+        font-size: 13.5px;
+
+    }
+    .infocards, .btn-cards{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .content ul li a{
+        font-size: 14px;
+    }
+    .homesection2{
+        margin-top: 25%;
+    }
+    .infocards, .btn-cards{
+        font-size: 11px;
+    }
+    .infocards div p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 850px){
+    .content ul li a{
+        font-size: 12px;
+    }
+    .homesection2{
+        margin-top: 30%;
+        font-size: 12px;
+    }
+    .infocards div p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 810px){
+    .infocards div p{
+        font-size: 11.5px;
+    }
+    .homesection2{
+        margin-top: 22%;
+    }
+}
+@media screen and (max-width: 800px){
+    button.icon{
+        display: block;
+        margin-top: 10px;
+    }
+    .homesection2{
+        margin-top: 22%;
+        font-size: 12px;
+    }
+    .infocards, .btn-cards{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 768px){
+    .homesection2{
+        margin-top: 18%;
+        font-size: 12px;
+    }
+    .infocards div p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 700px){
+     
+    button.icon{
+        display: block;
+        margin-top: 10px;
+    }
+    .imgReachus{
+        width: 91%;
+        top: 220px;
+    }
+    .infocards{
+        display: none;
+    }
+    .homesection2{
+        margin-top: 8%;
+        padding: 15px;
+    }
+    .ascond{
+        display: block;
+    }
+}
+@media screen and (max-width: 600px){
+    .content ul li{
+        margin: 0 2px;
+    }
+    .spaninp button{
+        padding: 3.3px;
+    }
+    
+.content1{
+    padding: 150px 100px 100px 100px;
+    text-align: center;
+}
+.contact1{
+   color: #f1f1f1;
+}
+
+}
